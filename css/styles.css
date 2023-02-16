@@ -27,8 +27,10 @@ p{
 }
 
 @media (max-width:900px) {
-    h1{
-        font-size: 1.5rem;
+    .bigheading{
+        font-family: 'Montserrat-Black', sans-serif; 
+        font-size: 2rem;
+        line-height: 1.5;
     }
     
 }
@@ -176,9 +178,6 @@ p{
 .testimonial-text{
     font-size: 3rem;
     line-height: 1.5;
-
-
-
 }
 .carousel-item{
     padding:7% 15%;
@@ -186,15 +185,16 @@ p{
 
 @media (max-width:900px){
     #testimonials{
-        padding: 3% 10%;
         text-align: center;
+        padding: 3% 10%;
+        
         background-color: #ef8179;
         color: #ffff9f;
     }
-    h2{
-        font-family: 'Montserrat-Black';
-        font-weight: 900;
-        font-size: 2rem;
+    .testimonial-text{
+        font-size: 1rem;
+        /* text-align: center; */
+        /* line-height: 1.5; */
     }
 }
 .Labrador-img{
@@ -214,10 +214,16 @@ p{
     width:15%;
     margin: 1.4rem 1.4rem 3.1rem;
 }
-/* .testimonial-text{
 
-} */
-
+@media (max-width:900px){
+    #press{
+        padding-bottom: 2%;
+    }
+    .press-img{
+        width:15%;
+        margin: 1rem 1rem 2.3rem;
+    }
+}
 /* ************************************* Pricing section************************* */
 #pricing{
     padding:100px;
@@ -236,15 +242,32 @@ p{
     line-height: 1.5;
 
 }
+.pricing-h3-1{
+    font-size: 1.4rem;
+    line-height: 1.5;
+
+}
 @media (max-width:900px){
     
-    .pricing-h2{
-        font-family: 'Montserrat-Black';
-        font-weight: 900;
-        font-size: 2.8rem;
-        color: #ff4c68;
-         
+    .pricing-h3{
+        font-size: 1.4rem;
+        line-height: 1.5;
+    
     }
+    .pricing-column{
+        padding: 0% 0%;
+        /* margin: auto 5rem; */
+    }
+    .pricing-text{
+        font-size: 1rem;
+        line-height: 1;
+    }
+    .pricing-h3-1{
+        font-size: 1.2rem;
+        line-height: 1.5;
+    
+    }
+
 }
 
 /* **********************************  CTA ********************************* */
