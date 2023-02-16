@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat-Black:wght@400;700;900&display=swap');
+
+
+
+body{
+    font-family:'Montserrat-Bold', sans-serif;
+    text-align: center;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+
+}
+p{
+    color: #8f8f8f;  
+}
+
+/* Headings */
+
+.bigheading{
+    font-family: 'Montserrat-Black', sans-serif; 
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+@media (max-width:900px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+.container-fluid{
+    padding:7% 15%;
+}
+
+
+
+/* ****************************************** sections ************************************************ */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: #fff;
+} 
+#testimonials.colored-section {
+    background-color:  #ef8172;
+    color: white;
+}
+
+#features.white-section{
+    background-color: white;
+    color: #ef8172;
+}
+#press.colored-section{
+    background-color: #ef8172;
+}
+/* ************************************** Title Section *********************************************/
+
+/* Download buttons  */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+
+#title .container-fluid{
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+    text-align: left;
+}
+
+
+
+/* Navigation Bar */
+
+.nav-link{
+    position: relative;
+    font-size: 1.3rem;
+   
+
+}
+
+.navbar-brand{
+   
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    
+}
+.navbar{
+
+}
+.nav-item{
+    font-family: "Monserrat-Light";
+
+}
+
+.navlinks{
+    /* position: relative; */
+
+}
+
+
+/* ********************** search bar ********************** */
+
+/* ********************************************************** */
+
+
+
+/********************************* title Image **************************************/
+
+.tiltimg{
+    /* height: 135%; */
+    width: 49%;
+    transform: rotate(20deg);
+    position: absolute;
+    /* bottom:0px; */
+    
+    right:10%;
+}
+/* *************************************************************************************** */
+@media (max-width:1028px) {
+    .tiltimg{
+    width: 60%;
+    transform: rotate(0);
+    position: static;
+    right:10%;
+
+    }
+    .navlinks{
+        /* margin: 0px; */
+        padding-left: 16.4rem;
+        margin-left: 2rem;
+    }
+    #title{
+        text-align: center;
+    }
+    
+}
+/* ***************************************************************Feature section***************************************** */
+.feature{
+    
+    color: #ef8179;
+    margin-bottom: 1rem;
+}
+
+#features{  
+    position: relative;
+}
+
+.feature-box{
+    padding: 4.5%;
+}
+.feature:hover{
+    color: #ff4c68;
+}
+
+.feature-h3{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+/* ************************************** Testimonial Section ******************************************* */
+
+/* #testimonials{
+    
+} */
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+
+
+
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+@media (max-width:900px){
+    #testimonials{
+        padding: 3% 10%;
+        text-align: center;
+        background-color: #ef8179;
+        color: #ffff9f;
+    }
+    h2{
+        font-family: 'Montserrat-Black';
+        font-weight: 900;
+        font-size: 2rem;
+    }
+}
+.Labrador-img{
+    border-radius: 100%;
+    width:18%;
+    margin: 1.4rem;
+}
+
+/* *********************************************************************************** */
+
+
+/* *************************** press ***********************************/
+#press{
+    padding-bottom: 3%;
+}
+.press-img{
+    width:15%;
+    margin: 1.4rem 1.4rem 3.1rem;
+}
+/* .testimonial-text{
+
+} */
+
+/* ************************************* Pricing section************************* */
+#pricing{
+    padding:100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.pricing-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-h3{
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+@media (max-width:900px){
+    
+    .pricing-h2{
+        font-family: 'Montserrat-Black';
+        font-weight: 900;
+        font-size: 2.8rem;
+        color: #ff4c68;
+         
+    }
+}
+
+/* **********************************  CTA ********************************* */
+
+
+
+
+/* ******************************************************************************* */
+
+/* ****************************** footer ************************** */
+#footer{
+
+    position: relative;
+    top: 2rem;
+    padding: 4rem 0rem 1rem 0rem;
+
+}
+
+.social-id{
+    padding: 2rem 0.5rem;
+    color: #8f8f8f;
+}
+/* *********************************************************** */
